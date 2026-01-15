@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aj.web.mapper.AgvTypeMapper">
+    <update id="updateById">
+        UPDATE cus_agvtype
+        <set>
+            <if test="AgvSeries != null ">AgvSeries = #{AgvSeries},</if>
+            <if test="AgvType != null ">AgvType = #{AgvType},</if>
+            <if test="AgvL != null">AgvL = #{AgvL},</if>
+            <if test="AgvW != null">AgvW = #{AgvW},</if>
+            <if test="AgvH != null">AgvH = #{AgvH},</if>
+            <if test="IsUse != null ">IsUse = #{IsUse},</if>
+            <if test="DefaultSpeed != null">DefaultSpeed = #{DefaultSpeed},</if>
+            <if test="MaxAcceleration != null">MaxAcceleration = #{MaxAcceleration},</if>
+            <if test="AgvFH != null">AgvFH = #{AgvH},</if>
+            <if test="MaxLoad != null ">MaxLoad = #{MaxLoad},</if>
+            <if test="chargeType != null">chargeType = #{chargeType},</if>
+            <if test="MaxAngSpeed != null">MaxAngSpeed = #{MaxAngSpeed},</if>
+            <if test="MaxAngAcceleration != null">MaxAngAcceleration = #{MaxAngAcceleration},</if>
+            <if test="DefaultLoadSpeed != null ">DefaultLoadSpeed = #{DefaultLoadSpeed},</if>
+            <if test="DefaultLoadAcceleration != null">DefaultLoadAcceleration = #{DefaultLoadAcceleration},</if>
+            <if test="CreateTime != null">CreateTime = #{CreateTime},</if>
+            <if test="UpdateTime != null">UpdateTime = #{UpdateTime},</if>
+        </set>
+        WHERE Id = #{id}
+    </update>
+</mapper>
