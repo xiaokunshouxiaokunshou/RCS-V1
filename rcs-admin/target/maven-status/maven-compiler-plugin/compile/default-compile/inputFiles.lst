@@ -1,0 +1,11 @@
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\RcsAdminApplication.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\controller\AgvSeriesController.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\controller\AgvTypeController.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\controller\AgvTypesController.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\mapper\AgvTypeMapper.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\pojo\AgvSeries.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\pojo\AgvType.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\pojo\AgvTypes.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\pojo\Result.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\services\AgvService.java
+D:\Dev\RCS\RCS-V1\RCS-V1\rcs-admin\src\main\java\com\aj\web\services\impl\AgvServiceImpl.java

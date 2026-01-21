@@ -31,8 +31,8 @@
               <template #title>
                 <el-icon><MapLocation /></el-icon> 地图配置                
               </template>
-                <el-menu-item index="">地图信息</el-menu-item>
-                <el-menu-item index="">准入车型配置</el-menu-item>
+                <el-menu-item index="/mapinfo">地图信息</el-menu-item>
+                <el-menu-item index="/carauth">准入车型配置</el-menu-item>
                 <el-menu-item index="">地图运行配置</el-menu-item>
                 <el-menu-item index="">车辆集群配置</el-menu-item>
                 <el-menu-item index="">充电桩配置</el-menu-item>

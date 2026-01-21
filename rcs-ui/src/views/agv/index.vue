@@ -4,10 +4,13 @@ import {queryAgvTypeList,queryAgvSeriesList,queryAgvTypesList,saveAgvType,queryB
 import { ElMessage,ElMessageBox } from 'element-plus';
 
 
+
 //钩子函数
 onMounted(() => {
   search();
 });
+
+
 //查询
 const agvTypeList = ref([])
 const search = async () => { 

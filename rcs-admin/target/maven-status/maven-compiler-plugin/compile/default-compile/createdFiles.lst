@@ -1,0 +1,11 @@
+com\aj\web\controller\AgvTypesController.class
+com\aj\web\services\AgvService.class
+com\aj\web\pojo\Result.class
+com\aj\web\pojo\AgvType.class
+com\aj\web\pojo\AgvTypes.class
+com\aj\web\pojo\AgvSeries.class
+com\aj\RcsAdminApplication.class
+com\aj\web\mapper\AgvTypeMapper.class
+com\aj\web\controller\AgvSeriesController.class
+com\aj\web\services\impl\AgvServiceImpl.class
+com\aj\web\controller\AgvTypeController.class
